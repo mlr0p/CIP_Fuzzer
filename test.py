@@ -30,4 +30,8 @@ client.send_unit_cip(cippkt)
 resppkt = client.recv_enippkt() 
 resppkt[CIP].show()
 
+# Write to file
+with open( hex(instanceid) +'.bin', 'wb') as f:
+    f.write(resppkt[CIP].load)
+
 client.forward_close()
