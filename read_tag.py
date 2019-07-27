@@ -165,10 +165,10 @@ def main():
     # Fuzz the interface handle
     # fuzz_interfacehandle(client)
     # fuzz_timeout(client)
-    fuzz_instanceid(client, 0xB2)
+    fuzz_instanceid(client, 0x6b)
     # fuzz_classid(client, 0x1f6)
     # fuzz_pathsize(client, 0xB2, 0x1f6)
-    # simple_read_tag(client, 3, 0xb2, 0x1f6)
+    # simple_read_tag(client, 3, 0x6b, 0x223)
     # Close the connection
     client.forward_close()
 
