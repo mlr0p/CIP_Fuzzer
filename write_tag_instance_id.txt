@@ -1,0 +1,4288 @@
+instance id: 0x1
+symbol name: Program:BRWHWS01Fill
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x2
+symbol name: UDI:aoiSel
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x3
+symbol name: Map:Discrete_IO
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x4
+symbol name: UDI:aoiDI
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x5
+symbol name: Local:1:C
+symbol type: 0x8909
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x86f6
+================================
+instance id: 0x6
+symbol name: Task:HighSpeed
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x7
+symbol name: UDI:aoiPidCas
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x8
+symbol name: UDI:aoiMO
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x9
+symbol name: Cxn:Data:0aa0a583
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0xa
+symbol name: Task:p00_Process
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0xb
+symbol name: Program:InputDevices
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0xc
+symbol name: UDI:aoiAI_AB
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0xd
+symbol name: Local:1:I
+symbol type: 0x8a08
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x85f7
+================================
+instance id: 0xe
+symbol name: Map:Local
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0xf
+symbol name: UDI:aoiMsgCtrl
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x10
+symbol name: Program:FaultHandler
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x11
+symbol name: UDI:aoiVSD_ABPowerFlex753
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x12
+symbol name: UDI:aoiAO
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x13
+symbol name: UDI:aoiAI
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x14
+symbol name: UDI:aoiSO
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x15
+symbol name: Program:PowerupHandler
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x16
+symbol name: UDI:aoiRoc
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x17
+symbol name: Local:1:O
+symbol type: 0x866b
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8994
+================================
+instance id: 0x18
+symbol name: UDI:aoiSS_ABSmcFlex
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x19
+symbol name: Map:PointIO
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x1a
+symbol name: UDI:aoiVSD_ABPowerFlex755
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x1b
+symbol name: UDI:aoiSelQueue
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x1c
+symbol name: UDI:aoiAI_NoScale
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x1d
+symbol name: UDI:aoiSO_IO
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x1e
+symbol name: UDI:aoiVSD
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x1f
+symbol name: UDI:aoiVV
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x20
+symbol name: Task:Controllers
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x21
+symbol name: UDI:aoiSeq
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x22
+symbol name: UDI:aoiPulseSeq
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x23
+symbol name: Cxn:Output:162afa92
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x24
+symbol name: Program:OutputDevices
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x25
+symbol name: UDI:aoiTotPulse
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x26
+symbol name: UDI:aoiCopBAry
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x27
+symbol name: UDI:aoiTot
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x28
+symbol name: UDI:aoiAlarmGroupManager
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x29
+symbol name: Task:p01_BRWBRW
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x2a
+symbol name: UDI:aoiAO_AB
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x2b
+symbol name: UDI:aoiVSD_ABB_ACS880
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x2c
+symbol name: UDI:aoiTotPulse_IO
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x2d
+symbol name: UDI:zzzCTEKTemplateAOIs
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x2e
+symbol name: UDI:aoiSS
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x2f
+symbol name: Program:Units
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x30
+symbol name: UDI:aoiMsgHsMon
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x31
+symbol name: UDI:aoiAlarm
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x32
+symbol name: UDI:aoiPid
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x33
+symbol name: PointIO:I
+symbol type: 0x8690
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x896f
+================================
+instance id: 0x34
+symbol name: PointIO:O
+symbol type: 0x89d3
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x862c
+================================
+instance id: 0x35
+symbol name: Program:System
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x36
+symbol name: UDI:aoiLPF
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x37
+symbol name: Program:Unit01
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x38
+symbol name: UDI:aoiDO
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x39
+symbol name: Program:Comms
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x3a
+symbol name: Map:PointIO_01
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x3b
+symbol name: Program:Controllers
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x3c
+symbol name: UDI:aoiVSD_ABB_ACS550
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x3d
+symbol name: UDI:aoiPLI
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x3e
+symbol name: msgHiLoopMA
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x3f
+symbol name: PointIO:1:C
+symbol type: 0x8a49
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x85b6
+================================
+instance id: 0x40
+symbol name: UDI:aoiVSD_ABPowerFlex755HiP
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x41
+symbol name: UDI:aoiRamp
+symbol type: 0x1338
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1cc7
+================================
+instance id: 0x42
+symbol name: Cxn:InputData:54da6102
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x43
+symbol name: Map:PointIO_02
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x44
+symbol name: PointIO:2:C
+symbol type: 0x8a49
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x85b6
+================================
+instance id: 0x45
+symbol name: Cxn:InputData:d9cd9099
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x46
+symbol name: Map:PointIO_03
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x47
+symbol name: PointIO:3:C
+symbol type: 0x87ab
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8854
+================================
+instance id: 0x48
+symbol name: Cxn:OutputData:7ae1e16c
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x49
+symbol name: PointIO:3:I
+symbol type: 0x8afb
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8504
+================================
+instance id: 0x4a
+symbol name: Map:PointIO_04
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x4b
+symbol name: PointIO:4:C
+symbol type: 0x87ab
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8854
+================================
+instance id: 0x4c
+symbol name: Cxn:OutputData:5772eb3b
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x4d
+symbol name: PointIO:4:I
+symbol type: 0x8afb
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8504
+================================
+instance id: 0x4e
+symbol name: AlarmAFI
+symbol type: 0xc1
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0xf3e
+================================
+instance id: 0x4f
+symbol name: msg1stBadDischarge
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x50
+symbol name: msg2ndBadDischarge
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x51
+symbol name: msg3rdBadDischarge
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x52
+symbol name: msgActive
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x53
+symbol name: msgAlarm
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x54
+symbol name: msgAlarmAck
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x55
+symbol name: msgAlarmActive
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x56
+symbol name: msgAlarmed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x57
+symbol name: msgAlreadyPreSelect
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x58
+symbol name: msgAlreadySelect
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x59
+symbol name: msgAPCAuto
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x5a
+symbol name: msgAPCOut
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x5b
+symbol name: msgAtFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x5c
+symbol name: msgAuto
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x5d
+symbol name: msgBowlOpen
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x5e
+symbol name: msgBrake
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x5f
+symbol name: Map:PointIO_07
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x60
+symbol name: msgCancelled
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x61
+symbol name: msgCIPReqd
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x62
+symbol name: msgCIPTypeAcid
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x63
+symbol name: msgCIPTypeAcidSan
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x64
+symbol name: msgCIPTypeCaustic
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x65
+symbol name: msgCIPTypeCausticAcid
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x66
+symbol name: msgCIPTypeCausticAcidSan
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x67
+symbol name: msgCIPTypeCausticSan
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x68
+symbol name: msgCIPTypeRinse
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x69
+symbol name: msgCIPTypeSan
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x6a
+symbol name: msgClampHi
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x6b
+symbol name: msgClampLo
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x6c
+symbol name: msgClosed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x6d
+symbol name: msgColourBlack
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x6e
+symbol name: msgColourBlue
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x6f
+symbol name: msgColourBrightWhite
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x70
+symbol name: msgColourCyan
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x71
+symbol name: msgColourGray
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x72
+symbol name: msgColourGreen
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x73
+symbol name: msgColourLightBlue
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x74
+symbol name: msgColourLightCyan
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x75
+symbol name: msgColourLightGreen
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x76
+symbol name: msgColourLightMagenta
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x77
+symbol name: msgColourLightRed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x78
+symbol name: msgColourLightYellow
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x79
+symbol name: msgColourMagenta
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x7a
+symbol name: msgColourRed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x7b
+symbol name: msgColourWhite
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x7c
+symbol name: msgColourYellow
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x7d
+symbol name: msgCommsFailure
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x7e
+symbol name: msgCVRamp
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x7f
+symbol name: msgDeng
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x80
+symbol name: msgDengFBFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x81
+symbol name: msgDengSLFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x82
+symbol name: msgDestNotSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x83
+symbol name: msgDisabled
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x84
+symbol name: msgDone
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x85
+symbol name: msgDoorNotClosed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x86
+symbol name: msgDoubleFB
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x87
+symbol name: msgDoubleFBFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x88
+symbol name: msgDrive
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x89
+symbol name: msgEmergencyShutdown
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x8a
+symbol name: msgEmergencyStopped
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x8b
+symbol name: msgEnabled
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x8c
+symbol name: msgEnge
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x8d
+symbol name: msgEngeFBFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x8e
+symbol name: msgEngeSLFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x8f
+symbol name: msgExtFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x90
+symbol name: msgFaulted
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x91
+symbol name: msgFTRFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x92
+symbol name: msgFTSFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x93
+symbol name: msgHeld
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x94
+symbol name: msgHigh
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x95
+symbol name: msgHighCurrent
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x96
+symbol name: msgHighHigh
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x97
+symbol name: msgHighHighHigh
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x98
+symbol name: msgHopperNotSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x99
+symbol name: msgHWFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x9a
+symbol name: msgIdle
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x9b
+symbol name: msgInAlarm
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x9c
+symbol name: msgIncorrectOperMode
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x9d
+symbol name: msgInput
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x9e
+symbol name: msgInterlock
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x9f
+symbol name: msgInterlocked
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa0
+symbol name: msgIsolated
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa1
+symbol name: msgLogicFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa2
+symbol name: msgLoopFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa3
+symbol name: msgLoopOk
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa4
+symbol name: msgLow
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa5
+symbol name: msgLowLoopMA
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa6
+symbol name: msgLowLow
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa7
+symbol name: msgLowLowLow
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa8
+symbol name: msgMasked
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xa9
+symbol name: msgMaster
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xaa
+symbol name: msgMasterInOper
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xab
+symbol name: msgMCCPowerFailure
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xac
+symbol name: msgNoDutyPumpSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xad
+symbol name: msgNoFBCfgFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xae
+symbol name: msgNoSelectionMade
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xaf
+symbol name: msgNotAcknowledged
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb0
+symbol name: msgNotActive
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb1
+symbol name: msgNotClosed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb2
+symbol name: msgNotDeng
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb3
+symbol name: msgNotEnabled
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb4
+symbol name: msgNotEnge
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb5
+symbol name: msgNotLowLevel
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb6
+symbol name: msgNotOk
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb7
+symbol name: msgNotOKtoProceed
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb8
+symbol name: msgNotOnHold
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xb9
+symbol name: msgNotOpen
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xba
+symbol name: msgNotPreSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xbb
+symbol name: msgNotReady
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xbc
+symbol name: msgNotReceived
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xbd
+symbol name: msgNotRunning
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xbe
+symbol name: msgNotSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xbf
+symbol name: msgOff
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc0
+symbol name: msgOffProduct
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc1
+symbol name: msgOK
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc2
+symbol name: msgOn
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc3
+symbol name: msgOnCIP
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc4
+symbol name: msgOnHold
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc5
+symbol name: msgOnProduct
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc6
+symbol name: msgOpAuto
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc7
+symbol name: msgOpen
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc8
+symbol name: msgOper
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xc9
+symbol name: msgOperDeFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xca
+symbol name: msgOperEnFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xcb
+symbol name: msgOperMode_Auto
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xcc
+symbol name: msgOperMode_Manual
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xcd
+symbol name: msgOperMode_SlaveAuto
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xce
+symbol name: msgOperOff
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xcf
+symbol name: msgOperOffDengFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd0
+symbol name: msgOperOffEngeFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd1
+symbol name: msgOperOffFaulted
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd2
+symbol name: msgOperOn
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd3
+symbol name: msgOperOnDengFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd4
+symbol name: msgOperOnEngeFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd5
+symbol name: msgOperOnFaulted
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd6
+symbol name: msgOperReverse
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd7
+symbol name: msgOperRevFaulted
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd8
+symbol name: msgOpOut
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xd9
+symbol name: msgOutLoopFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xda
+symbol name: msgOutOfAlarm
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xdb
+symbol name: msgOutOpenCct
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xdc
+symbol name: msgOutput
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xdd
+symbol name: msgOutRampDown
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xde
+symbol name: msgOutRampUp
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xdf
+symbol name: msgPLCinProg
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe0
+symbol name: msgPLCOut
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe1
+symbol name: msgPreact1
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe2
+symbol name: msgPreact2
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe3
+symbol name: msgPreselected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe4
+symbol name: msgPumpsnotRunning
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe5
+symbol name: msgPVLoopFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe6
+symbol name: msgQARequired
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe7
+symbol name: msgQueued
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe8
+symbol name: msgQueueFull
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xe9
+symbol name: msgReady
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xea
+symbol name: msgRecipeValueNotSet
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xeb
+symbol name: msgReset
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xec
+symbol name: msgRunning
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xed
+symbol name: msgRunningFlt
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xee
+symbol name: msgRunningReverse
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xef
+symbol name: msgSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf0
+symbol name: msgSepValvesNotShut
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf1
+symbol name: msgSetout
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf2
+symbol name: msgShutdown
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf3
+symbol name: msgSiloNotSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf4
+symbol name: msgSingleStepEnabled
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf5
+symbol name: msgSlave
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf6
+symbol name: msgSlaveAuto
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf7
+symbol name: msgSlaveInOper
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf8
+symbol name: msgSolenoid
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xf9
+symbol name: msgSourcenotSelected
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xfa
+symbol name: msgSpecIDMismatch
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xfb
+symbol name: msgSpeedGuard
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xfc
+symbol name: msgSpeedSensorFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xfd
+symbol name: msgSPRamp
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xfe
+symbol name: msgSpRampDown
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0xff
+symbol name: msgSpRampUp
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x100
+symbol name: msgSPSRamp
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x101
+symbol name: msgStale
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x102
+symbol name: msgStarting
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x103
+symbol name: msgStatusFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x104
+symbol name: msgStatusInit
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x105
+symbol name: msgStatusInOper
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x106
+symbol name: msgStatusRun
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x107
+symbol name: msgStatusSelect
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x108
+symbol name: msgStatusStop
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x109
+symbol name: msgStopped
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x10a
+symbol name: msgStopping
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x10b
+symbol name: msgSupplyFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x10c
+symbol name: msgThermalAlarm
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x10d
+symbol name: msgThermisterFault
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x10e
+symbol name: msgToDo
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x10f
+symbol name: msgTooHigh
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x110
+symbol name: msgTooLongOnStep
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x111
+symbol name: msgTooLow
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x112
+symbol name: msgTooSlowToHeat
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x113
+symbol name: msgTooSlowToSpeedUp
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x114
+symbol name: msgTravelling
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x115
+symbol name: msgUndefined
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x116
+symbol name: msgValve
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x117
+symbol name: PLC2_Msg
+symbol type: 0x8fff
+tag type: structured
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8000
+================================
+instance id: 0x118
+symbol name: PLC2_PLC1_Txi
+symbol type: 0x20c4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x2f3b
+================================
+instance id: 0x119
+symbol name: PLC2_Txi
+symbol type: 0x8920
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x86df
+================================
+instance id: 0x11a
+symbol name: sysAlm
+symbol type: 0x8d0d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x82f2
+================================
+instance id: 0x11b
+symbol name: sysAutoTune
+symbol type: 0x8fb6
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8049
+================================
+instance id: 0x11c
+symbol name: sysGlobalData
+symbol type: 0x84c3
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x8b3c
+================================
+instance id: 0x11f
+symbol name: __DEFVAL_0000011A
+symbol type: 0x811a
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8ee5
+================================
+instance id: 0x120
+symbol name: __DEFVAL_0000013D
+symbol type: 0x813d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8ec2
+================================
+instance id: 0x121
+symbol name: __DEFVAL_000002F0
+symbol type: 0x82f0
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8d0f
+================================
+instance id: 0x122
+symbol name: __DEFVAL_0000033B
+symbol type: 0x833b
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8cc4
+================================
+instance id: 0x123
+symbol name: __DEFVAL_0000039C
+symbol type: 0x839c
+tag type: atomic
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8c63
+================================
+instance id: 0x124
+symbol name: __DEFVAL_000003E5
+symbol type: 0x83e5
+tag type: structured
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x8c1a
+================================
+instance id: 0x125
+symbol name: __DEFVAL_00000464
+symbol type: 0x8464
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x8b9b
+================================
+instance id: 0x126
+symbol name: __DEFVAL_000004B3
+symbol type: 0x84b3
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x8b4c
+================================
+instance id: 0x127
+symbol name: __DEFVAL_00000518
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x128
+symbol name: __DEFVAL_00000560
+symbol type: 0x8560
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8a9f
+================================
+instance id: 0x129
+symbol name: __DEFVAL_00000676
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x12a
+symbol name: __DEFVAL_000006A8
+symbol type: 0x86a8
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8957
+================================
+instance id: 0x12b
+symbol name: __DEFVAL_000006D7
+symbol type: 0x86d7
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8928
+================================
+instance id: 0x12c
+symbol name: __DEFVAL_0000072A
+symbol type: 0x872a
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x88d5
+================================
+instance id: 0x12d
+symbol name: __DEFVAL_0000073A
+symbol type: 0x873a
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x88c5
+================================
+instance id: 0x12e
+symbol name: __DEFVAL_00000766
+symbol type: 0x8766
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8899
+================================
+instance id: 0x12f
+symbol name: __DEFVAL_00000856
+symbol type: 0x8856
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x87a9
+================================
+instance id: 0x130
+symbol name: __DEFVAL_000008F4
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x131
+symbol name: __DEFVAL_00000920
+symbol type: 0x8920
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x86df
+================================
+instance id: 0x132
+symbol name: __DEFVAL_00000927
+symbol type: 0x8927
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x86d8
+================================
+instance id: 0x133
+symbol name: __DEFVAL_00000A13
+symbol type: 0x8a13
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x85ec
+================================
+instance id: 0x134
+symbol name: __DEFVAL_00000A4D
+symbol type: 0x8a4d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x85b2
+================================
+instance id: 0x135
+symbol name: __DEFVAL_00000AD5
+symbol type: 0x8ad5
+tag type: structured
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x852a
+================================
+instance id: 0x136
+symbol name: __DEFVAL_00000AF9
+symbol type: 0x8af9
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8506
+================================
+instance id: 0x137
+symbol name: __DEFVAL_00000B11
+symbol type: 0x8b11
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x84ee
+================================
+instance id: 0x138
+symbol name: __DEFVAL_00000B4A
+symbol type: 0x8b4a
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x84b5
+================================
+instance id: 0x139
+symbol name: __DEFVAL_00000B63
+symbol type: 0x8b63
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x849c
+================================
+instance id: 0x13a
+symbol name: __DEFVAL_00000C15
+symbol type: 0x8c15
+tag type: structured
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x83ea
+================================
+instance id: 0x13b
+symbol name: __DEFVAL_00000C2F
+symbol type: 0x8c2f
+tag type: structured
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x83d0
+================================
+instance id: 0x13c
+symbol name: __DEFVAL_00000C38
+symbol type: 0x8c38
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x83c7
+================================
+instance id: 0x13d
+symbol name: __DEFVAL_00000C41
+symbol type: 0x8c41
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x83be
+================================
+instance id: 0x13e
+symbol name: __DEFVAL_00000CAD
+symbol type: 0x8cad
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8352
+================================
+instance id: 0x13f
+symbol name: __DEFVAL_00000CBC
+symbol type: 0x8cbc
+tag type: atomic
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8343
+================================
+instance id: 0x140
+symbol name: __DEFVAL_00000D97
+symbol type: 0x8d97
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8268
+================================
+instance id: 0x141
+symbol name: __DEFVAL_00000E6E
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x142
+symbol name: __DEFVAL_00000EB2
+symbol type: 0x8eb2
+tag type: atomic
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x814d
+================================
+instance id: 0x143
+symbol name: __DEFVAL_00000ECF
+symbol type: 0x8ecf
+tag type: structured
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8130
+================================
+instance id: 0x144
+symbol name: __DEFVAL_00000EFA
+symbol type: 0x8efa
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8105
+================================
+instance id: 0x145
+symbol name: Map:PointIO_05
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x146
+symbol name: PointIO:5:C
+symbol type: 0x829d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8d62
+================================
+instance id: 0x147
+symbol name: Cxn:InputData:ec812d85
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x148
+symbol name: PointIO:5:I
+symbol type: 0x8dcc
+tag type: atomic
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8233
+================================
+instance id: 0x149
+symbol name: Map:PointIO_06
+symbol type: 0x1069
+tag type: structured
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f96
+================================
+instance id: 0x14a
+symbol name: PointIO:6:C
+symbol type: 0x879f
+tag type: structured
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8860
+================================
+instance id: 0x14b
+symbol name: Cxn:OutputData:edfacb5a
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x14c
+symbol name: PointIO:6:I
+symbol type: 0x8406
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8bf9
+================================
+instance id: 0x14d
+symbol name: PointIO:6:O
+symbol type: 0x8531
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8ace
+================================
+instance id: 0x14e
+symbol name: B01VX0001
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x14f
+symbol name: B01VX0001SP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x150
+symbol name: B01VA0006
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x151
+symbol name: B01VA0005
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x152
+symbol name: B01VA0004
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x153
+symbol name: B01VA0003
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x154
+symbol name: B01VA0002
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x155
+symbol name: B01VA0001
+symbol type: 0x8676
+tag type: atomic
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8989
+================================
+instance id: 0x156
+symbol name: B01TT0003
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x157
+symbol name: B01TT0001
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x158
+symbol name: B01PU0003
+symbol type: 0x82f0
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8d0f
+================================
+instance id: 0x159
+symbol name: B01PU0002
+symbol type: 0x82f0
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8d0f
+================================
+instance id: 0x15a
+symbol name: B01PU0001
+symbol type: 0x82f0
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8d0f
+================================
+instance id: 0x15b
+symbol name: B01PT0001
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x15c
+symbol name: B01LT0001
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x15d
+symbol name: B01LS0003
+symbol type: 0x8b11
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x84ee
+================================
+instance id: 0x15e
+symbol name: B01LS0002
+symbol type: 0x8b11
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x84ee
+================================
+instance id: 0x15f
+symbol name: B01LS0001
+symbol type: 0x8b11
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x84ee
+================================
+instance id: 0x160
+symbol name: B01HE0002
+symbol type: 0x82f0
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8d0f
+================================
+instance id: 0x161
+symbol name: B01HE0001
+symbol type: 0x82f0
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x8d0f
+================================
+instance id: 0x162
+symbol name: B01FT0003
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x163
+symbol name: B01FT0002
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x164
+symbol name: PointIO:1:I
+symbol type: 0x8647
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x89b8
+================================
+instance id: 0x165
+symbol name: PointIO:2:I
+symbol type: 0x8647
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x89b8
+================================
+instance id: 0x166
+symbol name: PointIO:3:O
+symbol type: 0x8772
+tag type: atomic
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x888d
+================================
+instance id: 0x167
+symbol name: PointIO:4:O
+symbol type: 0x8772
+tag type: atomic
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x888d
+================================
+instance id: 0x168
+symbol name: B01LT0001SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x169
+symbol name: B01FT0001
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x16a
+symbol name: B01TT0001SP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x16b
+symbol name: BRWBRW01RcpSP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x16c
+symbol name: B01PT0001SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x16d
+symbol name: B01SC0001io
+symbol type: 0x873a
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x88c5
+================================
+instance id: 0x16e
+symbol name: B01LT0001SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x16f
+symbol name: B01LT0001SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x170
+symbol name: BRWHWS01Heat_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x171
+symbol name: PointIO:7:C
+symbol type: 0x829d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8d62
+================================
+instance id: 0x172
+symbol name: msgUserAddMash
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x173
+symbol name: BRWHWS01Fill_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x174
+symbol name: B01PT0001SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x175
+symbol name: B01SC0001
+symbol type: 0x8c15
+tag type: structured
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x83ea
+================================
+instance id: 0x176
+symbol name: msgUserConnectWaterSupplyHose
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x177
+symbol name: Program:BRWHWS01Heat
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x178
+symbol name: B01TT0001SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x179
+symbol name: B01TT0001SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x17a
+symbol name: B01LT0001SP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x17b
+symbol name: B01TT0001SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x17c
+symbol name: B01TT0001SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x17d
+symbol name: B01FT0001Tot01
+symbol type: 0x8a4d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x85b2
+================================
+instance id: 0x17e
+symbol name: B01FT0001Tot01TOT
+symbol type: 0x8f8e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8071
+================================
+instance id: 0x17f
+symbol name: Cxn:InputData:aabbf19e
+symbol type: 0x107e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x1f81
+================================
+instance id: 0x180
+symbol name: PointIO:7:I
+symbol type: 0x8dcc
+tag type: atomic
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8233
+================================
+instance id: 0x181
+symbol name: BRWMTN01FillHw_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x182
+symbol name: CIP
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x183
+symbol name: Program:CIP
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x184
+symbol name: B01TT0002SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x185
+symbol name: B01VX0001SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x186
+symbol name: TestBit00
+symbol type: 0xc1
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0xf3e
+================================
+instance id: 0x187
+symbol name: B01FT0003Tot01
+symbol type: 0x8a4d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x85b2
+================================
+instance id: 0x188
+symbol name: B01FT0003Tot01TOT
+symbol type: 0x8f8e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8071
+================================
+instance id: 0x189
+symbol name: B01FT0002Tot01
+symbol type: 0x8a4d
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x85b2
+================================
+instance id: 0x18a
+symbol name: B01FT0002Tot01TOT
+symbol type: 0x8f8e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8071
+================================
+instance id: 0x18b
+symbol name: B01TT0002SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x18c
+symbol name: B01VOL001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x18d
+symbol name: B01TT0002SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x18e
+symbol name: B01VOL001_A
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x18f
+symbol name: BRWBRW01RcpSP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x190
+symbol name: B01TT0001SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x191
+symbol name: B01VOL002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x192
+symbol name: Storage_Bit
+symbol type: 0xc1
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0xf3e
+================================
+instance id: 0x193
+symbol name: Storage_Bit_OFF
+symbol type: 0xc1
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0xf3e
+================================
+instance id: 0x194
+symbol name: BRWBTN01Boil_SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x195
+symbol name: B01VX0001SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x196
+symbol name: B01CV0007
+symbol type: 0x8cad
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8352
+================================
+instance id: 0x197
+symbol name: B01LT0001SP007
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x198
+symbol name: BRWBRW01RcpSP007
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x199
+symbol name: B01TT0002SP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x19a
+symbol name: BRWBRW01Ctrl_Recirc2Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x19b
+symbol name: BRWBRW01RcpSP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x19c
+symbol name: B01LT0001SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x19d
+symbol name: B01LT0001SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x19e
+symbol name: Program:BRWBTN01TrnFdr
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x19f
+symbol name: zzzHON_BOOL
+symbol type: 0x20d3
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x2f2c
+================================
+instance id: 0x1a0
+symbol name: BRWBRW01RcpSP016
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1a1
+symbol name: msgUserFermDrumReady
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1a2
+symbol name: BRWBTN01StsSP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1a3
+symbol name: B01VOL003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1a4
+symbol name: test
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1a8
+symbol name: B01PU0001_Started
+symbol type: 0xc1
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0xf3e
+================================
+instance id: 0x1a9
+symbol name: B01PU0001_Stopped
+symbol type: 0xc1
+tag type: structured
+system tag: False
+tag dimension: 0
+tag type service parameter: 0xf3e
+================================
+instance id: 0x1aa
+symbol name: RecircTimer
+symbol type: 0x8f83
+tag type: structured
+system tag: False
+tag dimension: 1
+tag type service parameter: 0x807c
+================================
+instance id: 0x1ab
+symbol name: BRWBRW01Ctrl_Boil2Ferm
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1ac
+symbol name: BRWBTN01StsSP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1ad
+symbol name: BRWBRW01Ctrl_BoilMash
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1ae
+symbol name: Program:BRWMTN01Recirc
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x1af
+symbol name: BRWMTN01StsSP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b0
+symbol name: BRWMTN01StsSP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b1
+symbol name: Program:BRWMTN01TrnBtn
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x1b2
+symbol name: zzzHON_DINT
+symbol type: 0x20c4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x2f3b
+================================
+instance id: 0x1b3
+symbol name: BRWBRW01Ctrl_FillWater
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1b4
+symbol name: B01FT0002Tot01SP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b5
+symbol name: B01FT0002SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b6
+symbol name: B01FT0002SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b7
+symbol name: B01FT0002SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b8
+symbol name: B01FT0002SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1b9
+symbol name: Program:BRWBTN01Boil
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x1ba
+symbol name: msgUserAddHops1
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1bb
+symbol name: BRWBRW01Ctrl_Heat1Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1bc
+symbol name: BRWBRW01Ctrl_Heat2Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1bd
+symbol name: BRWBRW01Ctrl_Heat3Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1be
+symbol name: BRWBRW01Ctrl_HeatWater
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1bf
+symbol name: BRWBRW01Ctrl_HW2Mash
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1c0
+symbol name: BRWBRW01Ctrl_Mash2Boil
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1c1
+symbol name: BRWBRW01Ctrl_MashRecirc
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1c2
+symbol name: msgUserCWIn
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1c3
+symbol name: msgUserHWOut
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1c4
+symbol name: BRWBRW01Ctrl_TrnReqdEN1
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1c5
+symbol name: BRWBRW01RcpSP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1c6
+symbol name: B01LT0001SP008
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1c7
+symbol name: msgFileNameBrew_BoilTunCheckList
+symbol type: 0x81e7
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8e18
+================================
+instance id: 0x1c9
+symbol name: msgUserAddHops2
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1cb
+symbol name: msgUserAddHops3
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1cc
+symbol name: msgUserAddHops4
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1cd
+symbol name: BRWBRW01RcpSP012
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1ce
+symbol name: BRWBRW01RcpSP013
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1cf
+symbol name: BRWBRW01RcpSP014
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1d0
+symbol name: BRWBRW01RcpSP015
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1d1
+symbol name: B01VX0001SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1d2
+symbol name: msgFileNameBlank
+symbol type: 0x81e7
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8e18
+================================
+instance id: 0x1d4
+symbol name: msgFileNameBuffer
+symbol type: 0x81e7
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8e18
+================================
+instance id: 0x1d5
+symbol name: BRWBTN01TrnFdr_ExtPrmptMsgFile
+symbol type: 0x8c9b
+tag type: structured
+system tag: True
+tag dimension: 1
+tag type service parameter: 0x8364
+================================
+instance id: 0x1d6
+symbol name: B01VX0001SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1d7
+symbol name: msgReferExtPrompt
+symbol type: 0xc4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0xf3b
+================================
+instance id: 0x1d8
+symbol name: BRWBTN01TrnFdr_FlowOk
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1d9
+symbol name: B01TT0003SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1dc
+symbol name: B01TT0002
+symbol type: 0x8518
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x8ae7
+================================
+instance id: 0x1dd
+symbol name: Program:BRWMTN01FillHw
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x1de
+symbol name: BRWMTN01TrnBtn_FlowOk
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1df
+symbol name: BRWBTN01Boil_BoilTimeRem
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1e0
+symbol name: B01SC0001SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1e1
+symbol name: B01VX0001SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1e2
+symbol name: BRWBRW01Ctrl_FillHw2Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1e3
+symbol name: BRWBRW01RcpSP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1e4
+symbol name: Task:p03_BRWMTN
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x1e5
+symbol name: Task:p04_BRWBTN
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x1e7
+symbol name: BRWBRW01RcpSP010
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1e8
+symbol name: B01TT0002SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1e9
+symbol name: BRWBRW01Ctrl_Fill1Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1ea
+symbol name: Task:p02_BRWHWS
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x1eb
+symbol name: Task:p05_CIP01
+symbol type: 0x1070
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x1f8f
+================================
+instance id: 0x1ec
+symbol name: Program:BRWBRW01Ctrl
+symbol type: 0x1068
+tag type: atomic
+system tag: True
+tag dimension: 0
+tag type service parameter: 0x1f97
+================================
+instance id: 0x1ed
+symbol name: BRWBRW01Ctrl_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x1ee
+symbol name: BRWBRW01RcpSP009
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1ef
+symbol name: BRWBRW01Ctrl_TrnBtn2Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1f0
+symbol name: BRWMTN01RecircSP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1f2
+symbol name: B01LT0001SP009
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1f3
+symbol name: BRWMTN01TrnBtn_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x1f4
+symbol name: BRWMTN01TrnBtn_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1f5
+symbol name: BRWMTN01TrnBtn
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x1f6
+symbol name: BRWBTN01Boil_SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1f7
+symbol name: BRWBTN01Boil_SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1f8
+symbol name: BRWMTN01Sts
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x1f9
+symbol name: BRWBTN01Boil_SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x1fa
+symbol name: BRWMTN01Recirc_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x1fc
+symbol name: BRWMTN01Recirc_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x1fd
+symbol name: BRWMTN01Recirc
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x1fe
+symbol name: BRWMTN01FillHw_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x1ff
+symbol name: BRWMTN01FillHw
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x200
+symbol name: BRWHWS01Heat_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x201
+symbol name: BRWHWS01Heat
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x202
+symbol name: BRWHWS01WtrIn_OP
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x203
+symbol name: BRWHWS01Fill_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x204
+symbol name: BRWHWS01Fill
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x205
+symbol name: BRWBTN01TrnFdr_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x208
+symbol name: BRWBTN01TrnFdr_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x209
+symbol name: BRWBTN01TrnFdr
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x20a
+symbol name: BRWBTN01Sts
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x20b
+symbol name: BRWBRW01RcpSP011
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x20f
+symbol name: BRWBTN01Boil_Op
+symbol type: 0x88f4
+tag type: atomic
+system tag: False
+tag dimension: 2
+tag type service parameter: 0x870b
+================================
+instance id: 0x211
+symbol name: BRWBTN01Boil_CPLT
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x212
+symbol name: BRWBTN01Boil
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x213
+symbol name: BRWBTN01Boil_SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x215
+symbol name: B01TT0003SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x216
+symbol name: B01TT0002SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x217
+symbol name: BRWBRW01Ctrl_Recirc1Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x218
+symbol name: BRWBRW01Ctrl_FillHw1Reqd
+symbol type: 0x8840
+tag type: atomic
+system tag: False
+tag dimension: 0
+tag type service parameter: 0x87bf
+================================
+instance id: 0x219
+symbol name: B01FT0003Tot01SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x21a
+symbol name: B01FT0002Tot01SP005
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x21f
+symbol name: BRWBRW01Ctrl
+symbol type: 0x8e6e
+tag type: atomic
+system tag: True
+tag dimension: 3
+tag type service parameter: 0x8191
+================================
+instance id: 0x223
+symbol name: BRWBRW01RcpName
+symbol type: 0x81e7
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8e18
+================================
+instance id: 0x224
+symbol name: B01TT0003SP006
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x225
+symbol name: B01TT0003SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x226
+symbol name: B01TT0003SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x227
+symbol name: BRWBRW01RcpDesc
+symbol type: 0x81e7
+tag type: structured
+system tag: False
+tag dimension: 3
+tag type service parameter: 0x8e18
+================================
+instance id: 0x22e
+symbol name: BRWBRW01RcpSP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x234
+symbol name: B01FT0003SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x235
+symbol name: B01FT0003SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x236
+symbol name: B01FT0003SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x237
+symbol name: B01FT0003SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x239
+symbol name: B01FT0001SP004
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x23a
+symbol name: B01FT0001SP003
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x23b
+symbol name: B01FT0001SP002
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x23c
+symbol name: B01FT0001SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x23d
+symbol name: B01CV0007io
+symbol type: 0x8cad
+tag type: structured
+system tag: True
+tag dimension: 2
+tag type service parameter: 0x8352
+================================
+instance id: 0x23e
+symbol name: B01TT0003SP001
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
+instance id: 0x240
+symbol name: BRWBRW01RcpSP008
+symbol type: 0xca
+tag type: atomic
+system tag: True
+tag dimension: 1
+tag type service parameter: 0xf35
+================================
