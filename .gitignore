@@ -125,3 +125,4 @@ dmypy.json
 
 # Custom binary data output
 .bin
+.txt
