@@ -11,22 +11,40 @@ import struct
 
 logging.basicConfig(format='[%(levelname)s] %(message)s', level=logging.DEBUG)
 
-def write_tag_string(client, string):
+def write_tag_string(client, instanceid, string):
     # Tag Type Service Parameter for Structures (\xa0\x02 + 4-byte structure handle) + Length (DINT - 4 bytes) + String (131 bytes, padded with null bytes)
     tag_type_service_param = "\xa0\x02\xbc\x2c\x01\x00"
     data = tag_type_service_param+ struct.pack('<I',len(string)) + string + '\x00' * (132 - len(string))
-    cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=0x227)) / data
+    cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
     client.send_unit_cip(cippkt)
     resppkt = client.recv_enippkt()
     print(resppkt[CIP].status)
 
-def write_tag_float(client, val):
+def write_tag_float(client, instanceid, val):
     # Tag Type Value (0xc400) + Number of elements to write (0x100) + Data (4 bytes)
     data = "\xca\x00" + "\x01\x00" + struct.pack("<f", val)
-    cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=0x1e3)) / data
+    cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
     client.send_unit_cip(cippkt)
     resppkt = client.recv_enippkt()
     print(resppkt[CIP].status)
+
+def fuzz_float_tag_type_service_param(client, instanceid, val):
+    # Float data (4 bytes)
+    # for d in range(0xffff):
+    #     print("float value: " + str(hex(d)))
+    #     data = "\xca\x00" + "\x01\x00" + struct.pack("<f", d)
+    #     cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
+    #     client.send_unit_cip(cippkt)
+    #     resppkt = client.recv_enippkt()
+    #     print(resppkt[CIP].status)
+    # Tag Type Value (0xc400) + Number of elements to write (0x100)
+    for d in range(0xffff):
+        print("number of elements: " + str(hex(d)))
+        data = struct.pack(">f", d) + struct.pack("<f", val)
+        cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
+        client.send_unit_cip(cippkt)
+        resppkt = client.recv_enippkt()
+        print(resppkt[CIP].status)
 
 
 def fuzz_instanceid(client, classid, string):
@@ -57,7 +75,7 @@ def fuzz_instanceid(client, classid, string):
             print("        " + v)
 
 # Fuzz with naughty strings
-def fuzz_string(client, classid):
+def fuzz_string(client, classid, instanceid):
     # Tag Type Service Parameter for Structures (\xa0\x02 + 4-byte structure handle) + Length (DINT - 4 bytes) + String (131 bytes, padded with null bytes)
     tag_type_service_param = "\xa0\x02\xbc\x2c\x01\x00"
     
@@ -75,7 +93,7 @@ def fuzz_string(client, classid):
             data = tag_type_service_param+ struct.pack('<I',len(string)) + string + '\xcc' * (132 - len(string))
         else:
             data = tag_type_service_param+ struct.pack('<I',len(string)) + string
-        cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=0x223)) / data
+        cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
         client.send_unit_cip(cippkt)
         # resppkt = client.recv_enippkt()
         # print(resppkt[CIP].status)
@@ -93,9 +111,12 @@ def main():
         sys.exit(1)
     # string = sys.argv[1]
     # fuzz_instanceid(client, 0x6b, string)
-    # fuzz_string(client, 0x6b)
-    # write_tag_string(client, string)
-    write_tag_float(client, 1337.0)
+    # fuzz_string(client, 0x6b, 0x227)
+    # write_tag_string(client, string, 0x227)
+    # write_tag_float(client, 0x1e3, 1337.0)
+    fuzz_float_tag_type_service_param(client, 0x1e3, 1337.0)
+
+
     # Close the connection
     client.forward_close()
 
