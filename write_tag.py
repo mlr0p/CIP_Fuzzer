@@ -45,7 +45,7 @@ def fuzz_float_tag_type_service_param(client, instanceid, val):
                     sys.stderr.write("Tag Type Value: " + str(hex(tagtype)) + "\n")
                     sys.stderr.write("Number of elements: " + str(hex(num)))
                     sys.stderr.write("Float Data: " + str(hex(random.randint(0, 0xffffffff))))
-                    sys.stderr.write("Status: " + )
+                    sys.stderr.write(resppkt[CIP].status)
 
 
 
