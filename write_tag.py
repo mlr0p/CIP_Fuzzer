@@ -8,6 +8,7 @@ from cip import CIP, CIP_Path
 import plc
 import scapy
 import struct
+import random
 
 logging.basicConfig(format='[%(levelname)s] %(message)s', level=logging.DEBUG)
 
@@ -29,22 +30,23 @@ def write_tag_float(client, instanceid, val):
     print(resppkt[CIP].status)
 
 def fuzz_float_tag_type_service_param(client, instanceid, val):
-    # Float data (4 bytes)
-    # for d in range(0xffff):
-    #     print("float value: " + str(hex(d)))
-    #     data = "\xca\x00" + "\x01\x00" + struct.pack("<f", d)
-    #     cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
-    #     client.send_unit_cip(cippkt)
-    #     resppkt = client.recv_enippkt()
-    #     print(resppkt[CIP].status)
-    # Tag Type Value (0xc400) + Number of elements to write (0x100)
-    for d in range(0xffff):
-        print("number of elements: " + str(hex(d)))
-        data = struct.pack(">f", d) + struct.pack("<f", val)
-        cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
-        client.send_unit_cip(cippkt)
-        resppkt = client.recv_enippkt()
-        print(resppkt[CIP].status)
+    for tagtype in range(0xff):
+        for num in range(0xff):
+            for i in range(0x10):
+                print("Tag Type Value: " + str(hex(tagtype)))
+                print("Number of elements: " + str(hex(num)))
+                print("Float Data: " + str(hex(random.randint(0, 0xffffffff))))
+                data = struct.pack("I", tagtype) + struct.pack("I", num) + struct.pack("<f", random.randint(0, 0xffffffff))
+                cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
+                client.send_unit_cip(cippkt)
+                resppkt = client.recv_enippkt()
+                print(resppkt[CIP].status)
+                if resppkt[CIP].status[0].status != 255:
+                    sys.stderr.write("Tag Type Value: " + str(hex(tagtype)) + "\n")
+                    sys.stderr.write("Number of elements: " + str(hex(num)))
+                    sys.stderr.write("Float Data: " + str(hex(random.randint(0, 0xffffffff))))
+                    sys.stderr.write("Status: " + )
+
 
 
 def fuzz_instanceid(client, classid, string):
