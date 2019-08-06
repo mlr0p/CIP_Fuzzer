@@ -124,5 +124,7 @@ dmypy.json
 .pyre/
 
 # Custom binary data output
-.bin
-.txt
+*.bin
+*.txt
+*.fuzz
+fuzzed_results/*
