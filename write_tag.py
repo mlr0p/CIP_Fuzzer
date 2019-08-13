@@ -41,21 +41,30 @@ def write_tag_float(client, instanceid, val):
     print(resppkt[CIP].status)
 
 def fuzz_write_float(client):
-    ROUND = 1000
-
+    start = time.time()
+    # ROUND = 2000
+    cur_round = 0
+    # print column
+    print("Path Size\tClass ID\tInstance ID\tTag Data Type\tElement Count\tData\t\tStatus")
     # cip.py is modified to take word size as field param
-    for wordsize in [2, 4]:
-        for classid in 0x100:
-            for instanceid in 0x10000:
+    for wordsize in [2, 3, 4]:
+        for classid in xrange(0x100):
+            for instanceid in xrange(0x10000):
                 for tagtype in TAG_TYPE.values():
-                    for num in [0, 2]:
-                        for float_data in 0x10:                            
-                            data = struct.pack("I", tagtype) + struct.pack("I", num) + struct.pack("<f", random.randint(0, 0x100000000))
+                    for num in [0, 1, 2]:
+                        for float_data in xrange(0x10):          
+                            float_data = random.randint(0, 0x100000000)     
+                            data = struct.pack("I", tagtype) + struct.pack("I", num) + struct.pack("<f", float_data)
                             cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=classid, instance_id=instanceid, word_size=wordsize)) / data
                             client.send_unit_cip(cippkt)
                             resppkt = client.recv_enippkt()
                             # Log Data
-                            print(resppkt[CIP].status)
+                            print("%d\t\t0x%x\t\t0x%x\t\t0x%x\t\t%d\t\t0x%x\t%s" % (wordsize, classid, instanceid, tagtype, num, float_data, str(resppkt[CIP].status)))
+                            if (cur_round % 100 == 0):
+                                elapsed_time = time.time() - start
+                                sys.stderr.write("Round: %d | Time: %d sec\r" % (cur_round, elapsed_time))
+                            cur_round+=1
+
 
 
 
