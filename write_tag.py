@@ -10,6 +10,17 @@ import scapy
 import struct
 import random
 
+TAG_TYPE = {
+    "BOOL":0x00c1,  # 1 byte 0x0nc1
+    "SINT":0x00c2,  # 1 byte
+    "INT":0x00c3,   # 2 bytes
+    "DINT":0x00c4,  # 4 bytes
+    "REAL":0x00ca,  # 4 bytes
+    "DWORD":0x00d3, # 4 bytes
+    "LINT":0x00c5   # 8 bytes
+}
+
+
 logging.basicConfig(format='[%(levelname)s] %(message)s', level=logging.DEBUG)
 
 def write_tag_string(client, instanceid, string):
@@ -29,23 +40,22 @@ def write_tag_float(client, instanceid, val):
     resppkt = client.recv_enippkt()
     print(resppkt[CIP].status)
 
-def fuzz_float_tag_type_service_param(client, instanceid, val):
-    for tagtype in range(0xff):
-        for num in range(0xff):
-            for i in range(0x10):
-                print("Tag Type Value: " + str(hex(tagtype)))
-                print("Number of elements: " + str(hex(num)))
-                print("Float Data: " + str(hex(random.randint(0, 0xffffffff))))
-                data = struct.pack("I", tagtype) + struct.pack("I", num) + struct.pack("<f", random.randint(0, 0xffffffff))
-                cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=0x6B, instance_id=instanceid)) / data
-                client.send_unit_cip(cippkt)
-                resppkt = client.recv_enippkt()
-                print(resppkt[CIP].status)
-                if resppkt[CIP].status[0].status != 255:
-                    sys.stderr.write("Tag Type Value: " + str(hex(tagtype)) + "\n")
-                    sys.stderr.write("Number of elements: " + str(hex(num)))
-                    sys.stderr.write("Float Data: " + str(hex(random.randint(0, 0xffffffff))))
-                    sys.stderr.write(resppkt[CIP].status)
+def fuzz_write_float(client):
+    ROUND = 1000
+
+    # cip.py is modified to take word size as field param
+    for wordsize in [2, 4]:
+        for classid in 0x100:
+            for instanceid in 0x10000:
+                for tagtype in TAG_TYPE.values():
+                    for num in [0, 2]:
+                        for float_data in 0x10:                            
+                            data = struct.pack("I", tagtype) + struct.pack("I", num) + struct.pack("<f", random.randint(0, 0x100000000))
+                            cippkt = CIP(service=0x4d, path=CIP_Path.make(class_id=classid, instance_id=instanceid, word_size=wordsize)) / data
+                            client.send_unit_cip(cippkt)
+                            resppkt = client.recv_enippkt()
+                            # Log Data
+                            print(resppkt[CIP].status)
 
 
 
@@ -116,7 +126,7 @@ def main():
     # fuzz_string(client, 0x6b, 0x227)
     # write_tag_string(client, string, 0x227)
     # write_tag_float(client, 0x1e3, 1337.0)
-    fuzz_float_tag_type_service_param(client, 0x1e3, 1337.0)
+    fuzz_write_float(client)
 
 
     # Close the connection
