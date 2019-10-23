@@ -94,7 +94,7 @@ def main():
     data = "\x02\x00\x01\x00\x02\x00"
 
     while("Success" not in status):
-        cippkt = CIP(service=0x55, path=CIP_Path.make(class_id=0x6b, instance_id=instanceid)) / data
+        cippkt = CIP(service=0x55, path=CIP_Path.make(class_id=0x6b, instance_id=instanceid, word_size = 3)) / data
         client.send_unit_cip(cippkt)
         resppkt = client.recv_enippkt() 
         status = str(resppkt[CIP].status)
